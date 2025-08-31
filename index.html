@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GFR in Tendering</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: #1e3a8a; color: white; padding: 1rem; text-align: center; }
-    nav { background: #f3f4f6; padding: 0.5rem; text-align: center; }
-    nav a { margin: 0 10px; text-decoration: none; color: #1e3a8a; font-weight: bold; }
-    section { padding: 2rem; }
-    footer { background: #1e3a8a; color: white; text-align: center; padding: 1rem; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GFR Tender Knowledge Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>General Financial Rules (GFR) in Tendering</h1>
-    <p>A Complete Knowledge Hub</p>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-800 text-white p-6 text-center shadow-md">
+    <h1 class="text-3xl font-bold">General Financial Rules (GFR)</h1>
+    <p class="mt-2">Complete Knowledge Hub for Tendering & Procurement</p>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#provisions">Key Provisions</a>
-    <a href="#updates">Updates</a>
-    <a href="#faq">FAQs</a>
-    <a href="#resources">Resources</a>
+  <!-- Navigation -->
+  <nav class="bg-gray-100 p-4 text-center shadow">
+    <a href="#about" class="mx-4 text-blue-700 font-semibold hover:underline">About</a>
+    <a href="#rules" class="mx-4 text-blue-700 font-semibold hover:underline">GFR Rules</a>
+    <a href="#updates" class="mx-4 text-blue-700 font-semibold hover:underline">Updates</a>
+    <a href="#faq" class="mx-4 text-blue-700 font-semibold hover:underline">FAQs</a>
+    <a href="#resources" class="mx-4 text-blue-700 font-semibold hover:underline">Resources</a>
   </nav>
 
-  <section id="about">
-    <h2>About GFR</h2>
-    <p>The General Financial Rules (GFR), issued by the Ministry of Finance, are a set of guidelines governing government procurement and financial management...</p>
+  <!-- About Section -->
+  <section id="about" class="p-10 text-center">
+    <h2 class="text-2xl font-bold mb-4">About GFR</h2>
+    <p class="max-w-3xl mx-auto">The General Financial Rules (GFR), issued by the Ministry of Finance, are a set of guidelines that regulate financial management and procurement in the Government of India...</p>
   </section>
 
-  <section id="provisions">
-    <h2>Key Provisions</h2>
-    <ul>
-      <li>Procurement rules & methods</li>
-      <li>Tendering procedures</li>
-      <li>Earnest Money Deposit (EMD) rules</li>
-      <li>Bidder eligibility & qualification</li>
-    </ul>
+  <!-- Rules Section -->
+  <section id="rules" class="bg-white p-10">
+    <h2 class="text-2xl font-bold text-center mb-6">Key GFR Rules</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div class="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg">
+        <h3 class="text-lg font-semibold mb-2">Procurement Rules</h3>
+        <p>Details on procurement procedures, thresholds, and guidelines...</p>
+      </div>
+      <div class="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg">
+        <h3 class="text-lg font-semibold mb-2">Tendering Process</h3>
+        <p>Step-by-step rules for inviting bids, evaluating offers, and awarding contracts...</p>
+      </div>
+      <div class="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg">
+        <h3 class="text-lg font-semibold mb-2">EMD Guidelines</h3>
+        <p>Regulations regarding Earnest Money Deposit (EMD) and exemptions...</p>
+      </div>
+    </div>
   </section>
 
-  <section id="updates">
-    <h2>Latest Updates</h2>
-    <p>Stay updated with recent circulars, amendments, and DoE guidelines.</p>
+  <!-- Updates Section -->
+  <section id="updates" class="p-10 text-center bg-gray-100">
+    <h2 class="text-2xl font-bold mb-4">Latest Updates</h2>
+    <p>Stay informed with Ministry of Finance circulars and DoE notifications.</p>
   </section>
 
-  <section id="faq">
-    <h2>FAQs</h2>
-    <p><strong>Q:</strong> What is GFR? <br> <strong>A:</strong> GFR are guidelines issued by the Ministry of Finance that govern financial and procurement procedures in India.</p>
+  <!-- FAQ -->
+  <section id="faq" class="p-10">
+    <h2 class="text-2xl font-bold text-center mb-6">FAQs</h2>
+    <div class="max-w-3xl mx-auto text-left">
+      <p><strong>Q:</strong> What is GFR?<br><strong>A:</strong> GFR are guidelines issued by MoF for procurement and financial management in the Government.</p>
+      <hr class="my-4" />
+      <p><strong>Q:</strong> Is GFR mandatory in tenders?<br><strong>A:</strong> Yes, all government tenders must comply with GFR provisions unless exempted.</p>
+    </div>
   </section>
 
-  <section id="resources">
-    <h2>Resources</h2>
-    <p><a href="https://doe.gov.in" target="_blank">Official DoE Website</a></p>
-    <p><a href="https://doe.gov.in/rules" target="_blank">Download GFR PDF</a></p>
+  <!-- Resources -->
+  <section id="resources" class="p-10 bg-blue-50 text-center">
+    <h2 class="text-2xl font-bold mb-4">Resources</h2>
+    <p><a href="https://doe.gov.in" target="_blank" class="text-blue-700 underline">Department of Expenditure (DoE)</a></p>
+    <p><a href="https://doe.gov.in/rules" target="_blank" class="text-blue-700 underline">Download Official GFR PDF</a></p>
   </section>
 
-  <footer>
-    <p>© 2025 GFR Tender Information | Maintained by [Your Name]</p>
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white p-6 text-center">
+    <p>© 2025 GFR Knowledge Hub | Maintained by [Your Name]</p>
   </footer>
 </body>
 </html>
